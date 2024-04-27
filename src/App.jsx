@@ -13,17 +13,18 @@ import { useEffect } from 'react'
 import { auth } from './config'
 import { course } from './components/data'
 import ParticulerCourse from './components/ParticulerCourse'
+import VideoPage from './components/VideoPage'
 
 
 
 function App() {
   const [userName, setUserName] = useState("")
 
-  useEffect(()=>(
+  useEffect(() => (
     auth.onAuthStateChanged((user) => {
-      if(user){
+      if (user) {
         setUserName(user.displayName)
-      }else{
+      } else {
         setUserName("")
       }
       console.log(user)
@@ -33,29 +34,34 @@ function App() {
 
 
 
-  
+
 
   return (
     <BrowserRouter>
-    <Header name={userName} />
+      <Header name={userName} />
       <Routes>
-
-          <Route path='/' element={<Home name={userName}  />} />
-          <Route path='/about' element={<About name={userName} />} />
-          <Route path='/contact' element={<Contact name={userName} />} />
-          <Route path='/login' element={<Login name={userName} />} />
-          <Route path='/login/signup' element={<Signup name={userName} />} />
-          <Route path='/courses' element={<Courses name={userName} />} />
-          {
-            course.map((item, index) => {
-              return (
-                <Route key={index} path={`/course/${item.id}`} element={<ParticulerCourse item={item}  />} />
-              )
-            })
-          }
-
+        <Route path='/' element={<Home name={userName} />} />
+        <Route path='/about' element={<About name={userName} />} />
+        <Route path='/contact' element={<Contact name={userName} />} />
+        <Route path='/login' element={<Login name={userName} />} />
+        <Route path='/login/signup' element={<Signup name={userName} />} />
+        <Route path='/courses' element={<Courses name={userName} />} />
+        {
+          course.map((item, index) => {
+            return (
+              <Route key={index} path={`/course/${item.id}`} element={<ParticulerCourse item={item} />} />
+            )
+          })
+        }
+        {
+          course.map((item, index) => {
+            return (
+              <Route key={index} path={`/video/${item.id}`} element={<VideoPage item={item} />} />
+            )
+          })
+        }
       </Routes>
-      <Footer/>
+      <Footer />
     </BrowserRouter>
   )
 }

@@ -33,8 +33,8 @@ const Header = (props) => {
           <h1 className='text-2xl '>
             <Link to="">
 
-              <span className='font-bold font-serif'>Edu</span>
-              <span className=' font-sans font-thin'>Web</span>
+              <span className='font-bold font-serif'>SkillXcel</span>
+              <span className=' font-sans font-thin'>Academy</span>
             </Link>
           </h1>
           <ul className='flex gap-10 font-semibold invisible lg:visible absolute md:relative  font-mono text-slate-700  items-center justify-center'>
@@ -51,10 +51,7 @@ const Header = (props) => {
               <NavLink to="contact">Contact</NavLink>
             </li>
           </ul>
-          <div className='flex items-center  justify-center '>
-            <Link className="rounded-md text-2xl p-2 mr-8" to=".">
-              <IoSearchOutline className='hover:text-[#1BB699] '  />
-            </Link>
+          <div className='flex items-center  justify-center'>
             <div className=''>
             {
               props.name ? (
@@ -62,9 +59,7 @@ const Header = (props) => {
                   <Link onClick={handleLogout}>
                     <Button text="Logout" />
                   </Link>
-
                 </>
-
               ) : (
                 <>
                   <Link to="login" className=''>

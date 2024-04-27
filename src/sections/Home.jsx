@@ -24,7 +24,9 @@ const Home = (props) => {
                     <h1 className='lg:text-4xl font-serif font-extralight text-5xl justify-center py-7'>Welcome, {props.name}!</h1>
                   </>
                 ) : (
-                  <></>
+                  <>
+                    <h1 className='lg:text-4xl font-serif font-extralight text-5xl justify-center py-7'>Please! login</h1>
+                  </>
                 )
               }
             </h1>

@@ -68,7 +68,8 @@ const course = [
     - Receive personalized guidance and feedback from Hima Bindu to refine your trading strategies and achieve your financial goals in the stock market.`,
     course_structure: [`Overview of financial markets
     - Introduction to stock exchanges and trading platforms
-    - Understanding market participants and their roles`]
+    - Understanding market participants and their roles`],
+    videoId: 'https://www.youtube.com/watch?v=VotJ1mcuhMk',
   },
   {
     id: 2,
@@ -87,7 +88,9 @@ const course = [
     - Receive personalized guidance and feedback from Hima Bindu to refine your trading strategies and achieve your financial goals in the stock market.`,
     course_structure: [`Overview of financial markets
     - Introduction to stock exchanges and trading platforms
-    - Understanding market participants and their roles`]
+    - Understanding market participants and their roles`],
+    videoId: 'https://www.youtube.com/watch?v=gNcMYHQ3dCs',
+
   },
   {
     id: 3,
@@ -106,7 +109,9 @@ const course = [
     - Receive personalized guidance and feedback from Hima Bindu to refine your trading strategies and achieve your financial goals in the stock market.`,
     course_structure: [`Overview of financial markets
     - Introduction to stock exchanges and trading platforms
-    - Understanding market participants and their roles`]
+    - Understanding market participants and their roles`],
+    videoId: 'https://www.youtube.com/watch?v=rL4DdTOHc0A',
+
   },
   {
     id: 4,
@@ -125,7 +130,9 @@ const course = [
     - Receive personalized guidance and feedback from Hima Bindu to refine your trading strategies and achieve your financial goals in the stock market.`,
     course_structure: [`Overview of financial markets
     - Introduction to stock exchanges and trading platforms
-    - Understanding market participants and their roles`]
+    - Understanding market participants and their roles`],
+    videoId: 'https://www.youtube.com/watch?v=l-nMKJ5J3Uc',
+
   }
 ]
 

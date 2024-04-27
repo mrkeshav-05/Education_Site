@@ -2,6 +2,7 @@ import React from 'react'
 import { course } from './data'
 import Button from './Button'
 import { Link } from 'react-router-dom'
+import VideoPage from './VideoPage'
 
 const ParticulerCourse = (props) => {
 
@@ -23,8 +24,11 @@ const ParticulerCourse = (props) => {
           <p className='block  text-left text-sm w-min px-1 py-1 text-[#1BB699]  bg-[#1bb69a2d] rounded'>{props.item.level}</p>
           <p>Rating: {" "}{props.item.rating}</p>
           <p>Price: {" "}{props.item.price}</p>
-          <Link className='block'>
-            <Button text='Explore' />
+          
+          <Link
+            to={`/video/${props.item.id}`}
+          >
+            <Button text='Enroll Now' />
           </Link>
         </div>
       </div>
