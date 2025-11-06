@@ -2,7 +2,9 @@
 
 A modern, responsive online education platform built with React and Vite, offering various courses including Software Engineering, Stock Market Trading, Pharma, Mathematics, and more. Features user authentication, video courses, and an intuitive interface for seamless learning experience.
 
-![Education Site Banner](<!-- PASTE YOUR SCREENSHOT LINK HERE -->)
+<img width="1440" height="810" alt="image" src="https://github.com/user-attachments/assets/ef3e66e9-774c-4a63-86cc-fac84490ae73" />
+
+
 
 ## 📋 Table of Contents
 
@@ -65,16 +67,22 @@ A modern, responsive online education platform built with React and Vite, offeri
 ## 📸 Screenshots
 
 ### Home Page
-![Home Page](<!-- PASTE YOUR HOME PAGE SCREENSHOT LINK HERE -->)
+<img width="1440" height="810" alt="image" src="https://github.com/user-attachments/assets/487c890f-4bc3-499e-8a49-0a3888cb074f" />
+
+
 
 ### Courses Page
-![Courses Page](<!-- PASTE YOUR COURSES PAGE SCREENSHOT LINK HERE -->)
+<img width="1440" height="806" alt="image" src="https://github.com/user-attachments/assets/21dc40bb-cb16-41dd-a196-ca0928e957d1" />
+
 
 ### Course Details
-![Course Details](<!-- PASTE YOUR COURSE DETAILS SCREENSHOT LINK HERE -->)
+<img width="1440" height="722" alt="image" src="https://github.com/user-attachments/assets/702df772-362b-4eef-bff9-4f0ae7fc16af" />
+<img width="1436" height="769" alt="image" src="https://github.com/user-attachments/assets/f333ab89-5a8d-47ff-99e8-4f3c49542907" />
+
 
 ### Login Page
-![Login Page](<!-- PASTE YOUR LOGIN PAGE SCREENSHOT LINK HERE -->)
+<img width="460" height="388" alt="image" src="https://github.com/user-attachments/assets/1a57f6d9-f003-486b-af4b-632edefcfd7d" />
+
 
 ## 🚀 Getting Started
 
